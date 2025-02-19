@@ -1,0 +1,37 @@
+body {
+    background-color: #1f1f1f;
+    color: #fefefe;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#divHeader{
+    display: grid;
+    grid-template-columns: 85% 15%;
+}
+
+#divHeaderTitulo{
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20%;
+}
+
+#divHeaderAutor{
+    float: right;
+    text-align: end;
+}
+
+#divHeaderMenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
