@@ -24,6 +24,16 @@ h2{
     margin-top: 1em;
 }
 
+details > summary{
+    color: rgb(163, 97, 255);
+    list-style: none;
+    cursor: pointer;
+}
+
+details > summary:hover{
+    text-shadow:0 0 15px rgb(163, 97, 255);
+}
+
 .componente{
     width: 100%;
     display: grid;
