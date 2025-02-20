@@ -1,3 +1,13 @@
+/*
+ COLORINES:
+ - Texto blanquito: #fefefe
+ - Texto gris: #777777
+ - Texto lila: rgb(134, 48, 255)
+ - Texto lila oscuro: rgb(96, 0, 170)
+ - Fondo body: #1f1f1f
+ - Fondo header: #0f0f0f
+ */
+
 body {
     background-color: #1f1f1f;
     color: #fefefe;
@@ -33,10 +43,11 @@ header{
 }
 
 #divHeaderAutor{
+    font-size: 0.9em;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: end;
+    text-align: end;
     padding-right: 5%;
 }
 
@@ -52,7 +63,9 @@ header{
 }
 
 #divHeaderMenu a{
-    color: #fefefe; 
+    color: #fefefe;
+    width: 100%;
+    text-align: center;
     font-size: 1.5em;
     text-shadow: 0 0 15px rgb(139, 49, 255), 0 0 15px rgb(139, 49, 255);
     text-decoration: none;
@@ -62,7 +75,40 @@ header{
 #divHeaderMenu a:hover{
     text-shadow: 0 0 15px rgb(139, 49, 255), 0 0 15px rgb(139, 49, 255);
     color: rgb(139, 49, 255); 
+    background-color: #171717;
 }
 
 
 /*********** FOOTER ***********/
+
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #0f0f0f;
+    color: #777777;
+    padding-bottom: 2%;
+}
+
+#divFooterContenidos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+#divFooterContenidos a{
+    color: #777777;
+    text-align: center;
+}
+
+#divFooterContenidos a:hover{
+    color: rgb(139, 49, 255);
+}
