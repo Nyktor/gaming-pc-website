@@ -16,11 +16,11 @@ img{
 }
 
 .componente p{
-    margin-right: 3%;
+    margin-right: 7%;
 }
 
 .componente div[id$="Img"]{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
