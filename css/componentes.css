@@ -1,0 +1,26 @@
+main{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+}
+
+img{
+    width: 20em;
+    height: 20em;
+}
+
+.componente{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.componente p{
+    margin-right: 3%;
+}
+
+.componente div[id$="Img"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

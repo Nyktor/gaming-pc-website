@@ -13,6 +13,7 @@ body {
     color: #fefefe;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
+    line-height: 1.5em;
 }
 
 /*********** HEADER ***********/
@@ -92,7 +93,7 @@ footer{
     bottom: 0;
     background-color: #0f0f0f;
     color: #777777;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
 }
 
 #divFooterContenidos{
