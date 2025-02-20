@@ -2,12 +2,16 @@ body {
     background-color: #1f1f1f;
     color: #fefefe;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
 }
+
+/*********** HEADER ***********/
 
 header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #0f0f0f;
 }
 
 #divHeader{
@@ -16,22 +20,49 @@ header{
 }
 
 #divHeaderTitulo{
-    font-size: 2em;
+    font-size: 3em;
+    color: rgb(134, 48, 255);
+    text-shadow: 0 0 15px rgb(96, 0, 170);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     padding-left: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 #divHeaderAutor{
-    float: right;
-    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding-right: 5%;
+}
+
+#divHeaderAutor span{
+    padding: 0.5%;
 }
 
 #divHeaderMenu{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
+
+#divHeaderMenu a{
+    color: #fefefe; 
+    font-size: 1.5em;
+    text-shadow: 0 0 15px rgb(139, 49, 255), 0 0 15px rgb(139, 49, 255);
+    text-decoration: none;
+    padding: 1.2em;
+}
+
+#divHeaderMenu a:hover{
+    text-shadow: 0 0 15px rgb(139, 49, 255), 0 0 15px rgb(139, 49, 255);
+    color: rgb(139, 49, 255); 
+}
+
+
+/*********** FOOTER ***********/
