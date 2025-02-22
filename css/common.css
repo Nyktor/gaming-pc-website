@@ -115,3 +115,17 @@ footer{
 #divFooterContenidos a:hover{
     color: rgb(139, 49, 255);
 }
+
+.gamer{
+    animation: gamer 4s linear infinite;
+}
+
+@keyframes gamer{
+    0%{color: rgb(255, 83, 83)}
+    15%{color: orange}
+    35%{color: yellow}
+    55%{color: lime}
+    75%{color: rgb(82, 169, 255)}
+    95%{color: rgb(180, 99, 255)}
+    100%{color: rgb(255, 83, 83)}
+}
