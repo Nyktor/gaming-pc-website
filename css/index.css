@@ -7,14 +7,6 @@ main{
     text-align: center;
 }
 
-h1{
-    font-size: 2.5em;
-    text-align: center;
-    text-shadow: 0 0 15px rgb(139, 49, 255), 0 0 15px rgb(139, 49, 255);
-    margin-top: 1.1em;
-    margin-bottom: 1.1em;
-}
-
 p{
     font-size: 1.1em;
     line-height: 1.5em;
