@@ -1,0 +1,12 @@
+#porsupuesto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 7%;
+}
+
+#subtotal, #iva, #total{
+    text-align: end;
+    margin-right: 0.4em;
+}
+

@@ -4,8 +4,8 @@ document.write('<header>\
                 Montaje de un PC Gamer\
             </div>\
             <div id="divHeaderAutor">\
-                <span>Víctor Medrano Rodríguez<br></span>\
-                <span>ASIX 2<br></span>\
+                <span>INSERTAR NOMBRE<br></span>\
+                <span>INSERTAR CURSO<br></span>\
                 <span>M5, UF1</span>\
             </div>\
         </div>\
