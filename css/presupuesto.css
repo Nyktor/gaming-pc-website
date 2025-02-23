@@ -1,3 +1,24 @@
+table, th, td{
+    /*border: 1px solid;
+    border-collapse: collapse;*/
+    padding: 0.2em; 
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
+
+th{
+    font-size: 1.3em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    background-color: #0f0f0f;
+    color: rgb(134, 48, 255);
+}
+
+tbody tr:hover{
+    background-color: #0f0f0f;
+    color: rgb(197, 156, 255);
+}
+
 #porsupuesto{
     display: flex;
     align-items: center;
@@ -5,8 +26,22 @@
     padding-bottom: 7%;
 }
 
-#subtotal, #iva, #total{
+.especial{
     text-align: end;
-    margin-right: 0.4em;
+    padding-right: 0.5em;
+    background-color: #0f0f0f;
+    color: rgb(134, 48, 255);
+}
+
+.precio, .unidades, .total{
+    text-align: center;
+}
+
+.total, #total{
+    font-weight: bold;
+}
+
+#totalFinal{
+    font-size: 1.3em;
 }
 
