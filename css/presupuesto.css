@@ -23,7 +23,6 @@ tbody tr:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 7%;
 }
 
 .especial{
@@ -49,3 +48,29 @@ tbody tr:hover{
     font-size: 1.3em;
 }
 
+#excel{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7%;
+    margin-top: 1%;
+    text-decoration: none;
+}
+
+#excel div{
+    text-align: center;
+    font-size: 1.4em;
+    background-color: #185C37;
+    border-radius: 1em;
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#excel div:hover{
+    background-color: #21A366;
+}
+
+#excel a{
+    color: #fefefe;
+    text-decoration: none;
+}
