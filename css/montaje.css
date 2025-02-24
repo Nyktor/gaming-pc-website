@@ -1,0 +1,54 @@
+img{
+    width: 15em;
+    height: 15em;
+}
+
+h2{
+    font-size: 1.7em;
+    color: rgb(163, 97, 255);
+    margin-bottom: 0.1em;
+    margin-top: 1em;
+}
+
+#tutorial div{
+    margin-bottom: 1.3em;
+}
+
+#tutorial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7%;
+}
+
+.derecha, .izquierda{
+    width: 60%;
+    display: grid;
+}
+
+.derecha{
+    grid-template-columns: 30% 70%;
+}
+
+.izquierda{
+    grid-template-columns: 70% 30%;
+}
+
+.izquierda .texto{
+    margin-right: 7%;
+}
+
+.derecha .texto{
+    margin-left: 7%;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+}
+
+.texto p{
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
