@@ -41,6 +41,10 @@ tbody tr:hover{
     font-weight: bold;
 }
 
+.par{
+    background-color: #2b2b2b;
+}
+
 #totalFinal{
     font-size: 1.3em;
 }
