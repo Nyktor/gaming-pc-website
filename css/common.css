@@ -128,6 +128,12 @@ footer{
     animation: gamer 4s linear infinite;
 }
 
+#divFooterDerechos{
+    font-weight: bold;
+    color: mediumblue;
+    text-shadow: 0 0 20px rgb(187, 135, 255), 0 0 20px rgb(187, 135, 255), 0 0 20px rgb(187, 135, 255);
+}
+
 @keyframes gamer{
     0%{color: rgb(255, 83, 83)}
     15%{color: orange}
