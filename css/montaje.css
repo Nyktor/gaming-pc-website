@@ -3,11 +3,28 @@ img{
     height: 15em;
 }
 
+h1{
+    margin-bottom: 0.7em;
+}
+
 h2{
     font-size: 1.7em;
     color: rgb(163, 97, 255);
     margin-bottom: 0.1em;
     margin-top: 1em;
+}
+
+#previo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    margin-bottom: 0.4em;
+}
+
+#previo p{
+    width: 60%;
 }
 
 #tutorial div{
@@ -48,7 +65,16 @@ h2{
     justify-content: center;
 }
 
-.texto p{
+.imagen img{
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+    /*max-height: 20em;
+    max-width: 20em;*/
+}
+
+p{
     font-size: 1.2em;
     line-height: 1.5em;
 }
