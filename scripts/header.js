@@ -14,6 +14,5 @@ document.write('<header>\
             <a href="componentes.html"><div>Componentes</div></a>\
             <a href="presupuesto.html"><div>Presupuesto</div></a>\
             <a href="montaje.html"><div>Montaje</div></a>\
-            <a href="comprobaciones.html"><div>Comprobaciones</div></a>\
         </div>\
     </header>')

@@ -4,10 +4,9 @@ document.write('<footer>\
             <a href="componentes.html"><div>Componentes</div></a>\
             <a href="presupuesto.html"><div>Presupuesto</div></a>\
             <a href="montaje.html"><div>Montaje</div></a>\
-            <a href="comprobaciones.html"><div>Comprobaciones</div></a>\
         </div>\
         \
         <div id="divFooterDerechos">\
-            Víctor Medrano, 2025 &copy; All rites reversed.\
+            &copy; 2025, Víctor Medrano. All rites reversed.\
         </div>\
     </footer>')
