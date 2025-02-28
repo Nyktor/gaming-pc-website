@@ -79,7 +79,7 @@ h2{
     margin-top: 0.3em;
 }
 
-p, li{
+p, ul>li, ol>li{
     font-size: 1.2em;
     line-height: 1.5em;
 }
