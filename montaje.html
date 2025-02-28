@@ -84,11 +84,11 @@
                     <h2>6. Instalación de la fuente de alimentación</h2>
                     <p>
                        Cogeremos nuestra PSU y la insertaremos en el compartimento inferior del chasis hacia la rejilla (hacia abajo). La atornillaremos
-                       bien a la parte trasera del chasis. Prepararemos los siguientes cables necesarios:
+                       bien a la parte trasera del chasis. Prepararemos y/o directamente conectaremos los siguientes cables necesarios:
                        <ul>
-                            <li>24 pines ATX</li>
-                            <li>8 pines EPS</li>
-                            <li>PCIe (12VPHWR)</li>
+                            <li>24 pines ATX: a la placa base (conector de 24 pines).</li>
+                            <li>8 (o 4+4) pines: al conector de la alimentación para la CPU.</li>
+                            <li>16 pines (12VPHWR): a la GPU (lo conectaremos en cuanto la instalemos).</li>
                        </ul>
                     </p>
                 </div>
@@ -153,17 +153,28 @@
             <div class="izquierda">
                 <div class="texto">
                     <h2>11. Instalación de la tarjeta gráfica</h2>
-                    <p></p>
+                    <p>Localizaremos la ranura PCI Express x16 en la placa base y retiraremos/desatornillaremos tantas tapas metálicas del 
+                       chasis como sean necesarias para nuestra tarjeta gráfica (unos 3 o 4 slots). Insertaremos la GPU en la ranura hasta
+                       escuchar un "clic!" y la fijaremos en el chasis por la parte de detrás con tornillos.
+                    </p>
+                    <p>Conectaremos el cable 16 pines que habíamos reservado previamente en la fuente de alimentación a la tarjeta gráfica.</p>
                 </div>
                 <div class="imagen"><img src="img/pasos/paso11.jpg" alt="Captura del paso 9"></div>
             </div>
             <div class="derecha">
                 <div class="imagen"><img src="img/pasos/paso12.jpg" alt="Captura del paso 10"></div>
                 <div class="texto">
-                    <h2>9. Conexión de los Cables del Chasis</h2>
-                    <p></p>
-                    <h2>10. Primera Prueba y Puesta en Marcha</h2>
-                    <p></p>
+                    <h2>12. Conexión de los Cables del Chasis</h2>
+                    <p>Para acabar, antes de las comprobaciones finales y la instalación de Sistema Operativo y periféricos, haremos las conexiones
+                       del chasis a la placa base:
+                       <ul>
+                        <li>Cable del botón de encendido (a PWR_SW) y de reinicio (RESET_SW).</li>
+                        <li>Cables de los LED del panel frontal</li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                       </ul>
+                    </p>
                 </div>
             </div>
             <div class="izquierda">
