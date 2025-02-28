@@ -62,6 +62,7 @@ h2{
 
 .imagen{
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -74,7 +75,11 @@ h2{
     max-width: 20em;*/
 }
 
-p{
+.dosImagenes img{
+    margin-top: 0.3em;
+}
+
+p, li{
     font-size: 1.2em;
     line-height: 1.5em;
 }
