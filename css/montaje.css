@@ -45,11 +45,11 @@ h2{
 }
 
 .derecha{
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 40% 60%;
 }
 
 .izquierda{
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 60% 40%;
 }
 
 .izquierda .texto{
@@ -58,6 +58,12 @@ h2{
 
 .derecha .texto{
     margin-left: 7%;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .imagen{
@@ -79,7 +85,7 @@ h2{
     margin-top: 0.3em;
 }
 
-p, ul>li, ol>li{
-    font-size: 1.2em;
+p, ul>li, ol>li, ul>li>ul>li{
+    font-size: 1.15 em;
     line-height: 1.5em;
 }

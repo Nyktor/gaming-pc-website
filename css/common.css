@@ -129,9 +129,10 @@ footer{
 }
 
 #divFooterDerechos{
+    font-size: 1.1em;   
     font-weight: bold;
-    color: mediumblue;
-    text-shadow: 0 0 20px rgb(187, 135, 255), 0 0 20px rgb(187, 135, 255), 0 0 20px rgb(187, 135, 255);
+    color: rgb(82, 44, 251);
+    /*text-shadow: 0 0 20px rgb(187, 135, 255), 0 0 20px rgb(187, 135, 255), 0 0 20px rgb(187, 135, 255);*/
 }
 
 @keyframes gamer{
