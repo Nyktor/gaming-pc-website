@@ -14,7 +14,7 @@ h2{
     margin-top: 1em;
 }
 
-#previo{
+.centro{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -23,7 +23,7 @@ h2{
     margin-bottom: 0.4em;
 }
 
-#previo p{
+.centro p{
     width: 60%;
 }
 
