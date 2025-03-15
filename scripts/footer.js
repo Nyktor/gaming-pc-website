@@ -7,6 +7,6 @@ document.write('<footer>\
         </div>\
         \
         <div id="divFooterDerechos">\
-            &copy; 2025, Víctor Medrano. All rites reversed.\
+            &copy; 2025, Nyktor. All rites reversed.\
         </div>\
     </footer>')

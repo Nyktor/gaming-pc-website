@@ -4,9 +4,9 @@ document.write('<header>\
                 Montaje de un PC Gamer\
             </div>\
             <div id="divHeaderAutor">\
-                <span>Víctor Medrano Rodríguez<br></span>\
-                <span>ASIX 2<br></span>\
-                <span>M5, UF1</span>\
+                <span>Nyktor<br></span>\
+                <span>IT Systems and Networks Admin.<br></span>\
+                <span>Hardware Fundamentals</span>\
             </div>\
         </div>\
         <div id="divHeaderMenu">\
